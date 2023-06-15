@@ -7,9 +7,11 @@ def melon_delivery_report(filename, day):
             melon, count, amount = line.rstrip().split("|")
         
 
-        print(f"Delivered {count} {melon}s for total of ${amount}")
+            print(f"Delivered {count} {melon}s for total of ${amount}")
 
 melon_delivery_report("um-deliveries-day-1.txt", 1)
+melon_delivery_report("um-deliveries-day-2.txt", 2)
+melon_delivery_report("um-deliveries-day-3.txt", 3)
 
 
 # print("Day 1")
